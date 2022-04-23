@@ -13,6 +13,7 @@ if (require("electron-squirrel-startup")) {
 const createWindow = () => {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
+    title: "Tycoon",
     height: 600,
     width: 800,
   });
